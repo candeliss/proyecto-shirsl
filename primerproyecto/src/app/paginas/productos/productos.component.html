@@ -1,0 +1,32 @@
+<h1>Productos</h1>
+<div class="card-container">
+  <ng-container *ngIf="Productos && Productos.length">
+    <ng-container *ngFor="let producto of Productos">
+      <div *ngIf="producto.disponibilidad" class="card">
+        <img [src]="producto.imagen" alt="{{ producto.nombre }}" class="product-image">
+        <h2>{{ producto.nombre }}</h2>
+        <p>{{ producto.descripcion }}</p>
+        <p>Precio: {{ producto.precio | currency }}</p>
+        <button type="button" class="btn btn-outline-primary" (click)="agregar(producto)">Agregar al carrito</button>
+      </div>
+    </ng-container>
+  </ng-container>
+</div>
+<div class="info-section">
+  <div class="info-item">
+    <img src="/envio.png" alt="Icono de envío" class="info-icon">
+    <h5>ENVIO A TODO EL PAIS</h5>
+
+  </div>
+  <div class="divider"></div>
+  <div class="info-item">
+    <img src="/PAGO.jpg" alt="Icono de pago" class="info-icon">
+    <h5>TODOS LOS METODOS DE PAGO</h5>
+  </div>
+  <div class="divider"></div>
+  <div class="info-item">
+    <img src="/seg.jpg" alt="Icono de seguridad" class="info-icon">
+    <h5>COMPRA SEGURA</h5>
+
+  </div>
+</div>

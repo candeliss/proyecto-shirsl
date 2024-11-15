@@ -1,0 +1,92 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.footer {
+    background-color: #8f5789;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.footer .newsletter {
+    margin: 10px 0;
+}
+
+.footer .newsletter input[type="email"] {
+    padding: 10px;
+    width: 60%;
+    max-width: 300px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.footer .newsletter button {
+    padding: 10px 20px;
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    color: #e4a3a7;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.footer .payment-methods, .footer .shipping-methods {
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px; /* Espacio entre los íconos */
+    max-width: 700px; /* Limita el ancho máximo de la fila de íconos */
+}
+
+.footer .payment-methods img, .footer .shipping-methods img {
+    width: 70px; /* Tamaño uniforme para los íconos */
+    height: auto;
+}
+
+.footer .legal-links {
+    margin: 15px 0;
+    font-size: 12px;
+}
+
+.footer .legal-links a {
+    color: white;
+    text-decoration: underline;
+    margin: 0 5px;
+}
+
+.footer .powered-by {
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+.footer .powered-by img {
+    vertical-align: middle;
+    margin-right: 5px;
+    width: 100px; /* Tamaño fijo para el logo de Tiendanube */
+}
+
+.footer .whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25D366;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+.footer .whatsapp-button img {
+    width: 30px;
+    height: 30px;
+}

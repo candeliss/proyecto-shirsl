@@ -1,0 +1,38 @@
+.col-12.d-flex.flex-column.justify-content-center.align-items-center {
+  background-color: #d7a7c0; /* Cambia este color al que prefieras */
+ 
+}
+.container {
+
+  display: flex;
+  justify-content: flex-end;
+}
+
+.info-section {
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.info-item {
+  text-align: center;
+  max-width: 200px;
+}
+
+.info-icon {
+
+  width: 30px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.info-item {
+  margin: 10px 0;
+  display: flex-end;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
